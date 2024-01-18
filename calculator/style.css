@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    /* background-color: blueviolet; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .delete{
+    height:10vh;
+    width:50vw;
+    background-color: black;;
+} */
+
+.calculator{
+    background-color: black;
+    position:absolute;
+    box-sizing: border-box;
+    height: 400px;
+    width:250px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.display{
+    /* border:2px solid red; */
+    position: relative;
+    box-sizing: border-box;
+    /* border:2px solid red; */
+    height:30%;
+}
+
+.display span{
+    font-weight: bolder;
+    font-family: sans-serif;
+    color:white;
+    font-size:30px;
+    position: absolute;
+    bottom:10px;
+    right:30px;
+}
+.btns{
+    /* font-weight: bolder; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items:center;
+    justify-content: center;
+    justify-items: center;
+    box-sizing: border-box;
+    height:65%;
+    /* border:2px solid green; */
+}
+
+.btn:hover{
+    background-color: rgb(198, 197, 197);
+    color: rgb(45, 41, 41);
+}
+
+.bg-gray{
+    background-color: #a4a4a4;
+}
+
+.bg-yellow{
+    background-color:#ffa200 ;
+}
+#ffa200
+.bg-yellow:hover{
+    background-color:white ;
+    color:#ffa200;
+}
+
+.bg-darkgray{
+    background-color: #262626;
+}
+
+.text-white{
+    color:white;
+}
+
+.btn{
+    /* border-color: black; */
+    font-weight:bolder;
+    border:none;
+    font-size: 20px;
+    height:45px;
+    width: 45px;
+    border-radius: 100%;
+}
+
+.zero{
+    font-weight:bolder;
+    border: none;
+    border-radius:25px;
+    font-size:20px;
+    padding-left: 15px;
+    text-align: left;
+    grid-row:5/6 ;
+    grid-column:1/3;
+    width:100px;
+    height: 45px;
+}
+
+.zero:hover{
+    background-color: rgb(198, 197, 197);
+    color: rgb(45, 41, 41);
+}
